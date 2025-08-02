@@ -1,0 +1,48 @@
+/* Form Wrapper */
+.form-wrapper {
+  max-width: 600px;
+  margin: 4rem auto;
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #b92b27;
+}
+
+/* Form Elements */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #b92b27;
+  outline: none;
+}
+
+/* Submit Button */
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #b92b27;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #921f1c;
+}

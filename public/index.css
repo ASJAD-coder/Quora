@@ -1,0 +1,114 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fdfcfc;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #b92b27;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Post Cards */
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 6px solid #b92b27;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.post h3 {
+  color: #b92b27;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.post h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Action Buttons */
+.create-post-btn {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.create-post-btn a,
+.create-post-btn button {
+  background-color: #b92b27;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.create-post-btn a:hover,
+.create-post-btn button:hover {
+  background-color: #921f1c;
+}
+
+/* Form Styling */
+form {
+  display: inline;
+}
+
+/* Bottom Create Button */
+.create-post-btn:last-of-type {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.create-post-btn:last-of-type a {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #b92b27;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .create-post-btn {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .create-post-btn a,
+  .create-post-btn button {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,47 @@
+/* Detail Page */
+body {
+  background-color: #fafafa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #b92b27;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+/* Container and Post Styling */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  border-left: 5px solid #b92b27;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.post h3 {
+  font-size: 1.5rem;
+  color: #b92b27;
+  margin-bottom: 0.5rem;
+}
+
+.post h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #444;
+  line-height: 1.6;
+}
